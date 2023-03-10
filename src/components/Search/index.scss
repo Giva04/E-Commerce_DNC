@@ -1,0 +1,42 @@
+@use "../../sass/variables" as * ;
+
+.search { 
+    padding: 70px;
+    padding-top: 50px;
+    padding-bottom: 9px;
+    display: flex;
+    justify-content: space-evenly;
+    
+ 
+   .search__input-container {
+      position: absolute;
+      margin-top: 1px;
+    }
+  
+  .search__search-logo {
+      position: absolute;
+      left: 100px;
+      transform: translateY(-50%);
+      font-size: 30px;
+      color: gray;
+      margin-top: 25px;
+    }
+  
+    input {
+      padding-left: 45px;
+      height: 48px;
+      width: 1096px;
+      border-radius: 10px;
+      border: 1px solid $border-input-color;
+    }
+   .profile{
+    width: 30px;
+    height: 50px;
+   }  
+   .heart{
+    width: 30px;
+    height: 50px;
+   }  
+  
+  }
+  

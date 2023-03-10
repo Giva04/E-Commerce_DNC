@@ -1,0 +1,9 @@
+@use "../../sass/variables" as * ;
+
+.Header {
+    padding: 27px 56px;
+    background-color:$header-background;
+    width: 100%;
+    display: flex;
+    
+}
