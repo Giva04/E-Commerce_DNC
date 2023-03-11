@@ -1,4 +1,5 @@
 import React from 'react'
+import './index.scss';
 import { Link, useParams } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 

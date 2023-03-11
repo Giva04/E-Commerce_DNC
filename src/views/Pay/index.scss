@@ -1,3 +1,5 @@
+@use "../../sass/variables"  as * ;
+
 .pay-detail {
   display: flex;
   justify-content: space-around;
@@ -57,7 +59,7 @@
 
   &__card {
     border-radius: 8px;
-    border: 1px solid $border-background-card;
+    border:1px solid #b7b7b7;
 
     p {
       padding: 1rem;
@@ -79,7 +81,7 @@
     p {
       padding-top: 0.5rem;
       padding-bottom: 1rem;
-      border-bottom: 2px solid $border-background-card;
+      border-bottom: 2px solid #b7b7b7;;
     }
 
     font-size: 25px;
@@ -96,7 +98,8 @@
     width: 586px;
 
     button {
-      background-color: $contrast-color;
+      background-color: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      linear-gradient(0deg, #0C70F2, #0C70F2);
       width: 638px;
       height: 47px;
       border-radius: 10px;
@@ -105,7 +108,7 @@
 
     a {
       text-decoration: none;
-      color: $white;
+      color: white;
       font-size: 25px;
       font-weight: 700;
       line-height: 20px;
