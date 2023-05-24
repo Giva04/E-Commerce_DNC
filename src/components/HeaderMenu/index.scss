@@ -1,38 +1,43 @@
-@use "../../sass/variables" as * ;
-
+@use "../../sass/variables" as *;
 
 .header-menu {
-    padding: 27px 56px;
-    background-color: $header-background;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    .header-menu__logoDNC {
-      width: 109px;
-      height: 50px;
-    }
-  
-    ul{
-      display: flex;
-      list-style-type: none;
-      column-gap: 48px;
-      flex-grow: 2;
-      padding-left: 70px;
-      font-size: 22px;
-      line-height: 26px;
-    }
-  
-    .Shooping {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-evenly;
-      padding: 10px;
-    }
-    h1{
-        font-weight: bold;
-    }
-    
+  padding: 20px 50px;
+  background-color: $header-background;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-menu__logoDNC {
+    max-width: 109px;
+    height: 50px;
   }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    column-gap: 48px;
+    flex-grow: 1;
+    padding-left: 70px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .Shooping {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 10px;
+    justify-self: end;
+  }
+
+  &__cart-shop {
+    display: flex;
+    gap: 10px;
+  }
+
+  h1 {
+    font-weight: bold;
+  }
+  
+}
